@@ -100,8 +100,6 @@
 
             putFilms.appendChild(planetsList)
             //  console.log(response)
-
-
           })
           console.log(response.results[i].planets[j])
           yoReq.open('GET', response.results[i].planets[j])
